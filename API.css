@@ -1,0 +1,37 @@
+body{background-color: black;}
+
+.movie {display: flex;
+flex-flow: row;
+margin-left: 5px;
+}
+
+
+img{width: 200px;
+height: 200px;}
+
+#main{display: flex;
+flex-flow: row wrap;
+}
+
+.movie-info {background-color: rgb(109, 8, 8);
+color: white;
+padding: -19px;
+
+}
+
+input[type="text"]{
+margin:5% 0% 4% 37%;
+padding: 10px;
+border-radius: 10px;
+width: 400px;
+background-color: black;
+color: white;
+outline: none;
+box-shadow: 2px 5px 12px 6px gray;}
+
+
+input[type="text"]:hover{background-color: rgb(243, 239, 239);
+color:black;
+border: 2px solid grey;
+}
+
